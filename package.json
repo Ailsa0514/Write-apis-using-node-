@@ -1,0 +1,24 @@
+{
+  "name": "apiproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "joi": "^14.3.0",
+    "mongoose": "^5.3.14",
+    "morgan": "^1.9.1",
+    "promise-express-router": "^1.3.0"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^0.19.1",
+    "nodemon": "^1.18.7"
+  }
+}
